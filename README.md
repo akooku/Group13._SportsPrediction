@@ -1,6 +1,3 @@
-# Group13._SportsPrediction
-In this project, Ako and Konama are tasked to build a model(s) that predict a player's overall rating given the player's profile.
-
 # Group Project README
 
 ## Project Name
@@ -9,13 +6,12 @@ FIFA Player Overall Rating Prediction
 
 ## Description
 
-This project aims to predict the overall rating of FIFA players based on various attributes. It uses a machine learning model to provide predictions and evaluate the model's performance.
+In this project, Ako and Konama are tasked to build a model(s) that predict a player's overall rating given the player's profile. It uses a machine learning model to provide predictions and evaluate the model's performance.
 
 ## Contributors
 
-- John Doe (Project Lead)
-- Jane Smith (Data Scientist)
-- Alice Johnson (Web Developer)
+- Ako Oku Eyo
+- Konama Darteh Shulammite
 
 ## Acknowledgments
 
