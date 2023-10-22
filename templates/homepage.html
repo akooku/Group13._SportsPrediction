@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mid-Semester Project: Sports Prediction</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='homepage.css') }}">
+</head>
+<body>
+    <h1>FIFA Player Overall Rating Prediction</h1>
+    
+    <form method="POST" action="/predict">
+        <label for="value_eur">Player Value (EUR):</label>
+        <input type="text" name="value_eur" id="value_eur" placeholder="Enter amount">
+        <br>
+
+        <label for="release_clause_eur">Player Release Clause (EUR):</label>
+        <input type="text" name="release_clause_eur" id="release_clause_eur" placeholder="Enter amount">
+        <br>
+
+        <label for="potential">Player Potential:</label>
+        <input type="text" name="potential" id="potential" placeholder="e.g. 1-100">
+        <br>
+
+        <label for="movement_reactions">Movement Reactions:</label>
+        <input type="text" name="movement_reactions" id="movement_reactions" placeholder="e.g. 1-100">
+        <br>
+
+        <label for="age">Player Age:</label>
+        <input type="text" name="age" id="age" placeholder="Enter age">
+        <br>
+
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
